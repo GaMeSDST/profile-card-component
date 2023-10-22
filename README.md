@@ -4,14 +4,14 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Table of contents
 
--[Links](#links)
--[Built with](#built-with)
--[Author](#author)
+- [Links](#links)
+- [Built with](#built-with)
+- [Author](#author)
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/profilecardcomponent-using-simple-html-and-css-DdV0iu1QpY)
+- [Live Site URL](https://gamesdst.github.io/profile-card-component/)
 
 ### Built with
 
