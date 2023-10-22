@@ -1,0 +1,146 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+.attribution {
+    bottom: 10px;
+    position: fixed;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--dark-cyan);
+    position: relative;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+}
+
+.main-bg {
+    background: url(images/bg-pattern-card.svg);
+    height: 140px;
+    width: 100%;
+    background-size: contain;
+    border-radius: 20px 20px 0 0;
+}
+
+.avatar {
+    position: absolute;
+    top: 85px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
+.main-name {
+    margin-top: 75px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.main-name span {
+    color: var(--dark-gray);
+    margin-left: 10px;
+}
+
+.location {
+    margin-top: 0;
+    color: var(--dark-gray);
+    margin-bottom: 25px;
+}
+
+.data {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    border-top: 2px solid hsla(0, 0%, 59%, 0.2);
+}
+
+.main-data {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.mini-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-data {
+    margin-top: 3px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--dark-gray);
+}
+
+.top-ball {
+    background:url(images/bg-pattern-top.svg);
+    height: 978px;
+    width:  978px;
+    position: fixed;
+    top: -555px;
+    right: 50%;
+    background-repeat: no-repeat;
+}
+
+.bottom-ball {
+    background: url(images/bg-pattern-bottom.svg);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    right: -50%;
+    bottom: -44%;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 400px){
+    .main {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .main {
+        width: 300px;
+    }
+
+    .data {
+        gap: 35px
+    }
+}
